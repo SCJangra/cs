@@ -1,0 +1,3 @@
+mod algo;
+
+fn main() {}
