@@ -1,5 +1,5 @@
 {
-  outputs = { self, nixpkgs, flake-utils, ... }:
+  outputs = {  nixpkgs, ... }:
     let
       system = "x86_64-linux";
       pkgs = import nixpkgs { inherit system; };
